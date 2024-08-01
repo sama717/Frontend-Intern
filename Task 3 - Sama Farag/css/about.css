@@ -1,0 +1,159 @@
+section {
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+    box-sizing: border-box; 
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+}
+
+.section-1 img {
+    width: 42rem;
+    height: auto;
+    /* Removed margin */
+}
+
+.sec-1-left {
+    display: flex;
+    margin: 2rem;
+}
+
+.sec-1-right {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.sec-1-right h2{
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 2.3rem;
+    opacity: 0.75;
+    margin-bottom: 2rem;
+}
+
+.sec-1-right p{
+    font-size: 1.3rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #303030;
+    opacity: 0.8;
+}
+
+.sec-1-right .dashed-paragraph{
+    color: #989898;
+    font-weight: 100;
+    font-family: "Alegreya Sans", sans-serif;
+    opacity: 0.4;
+    margin-bottom: 1.2rem;
+    margin-top: 0.7rem;
+}
+
+/* Section 2 */
+.section-2{
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+    box-sizing: border-box; 
+}
+
+.section-2 svg{
+    margin-top: 4rem;
+    margin-bottom: 1.8rem;
+}
+
+.section-2 h2{
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 2.1rem;
+    opacity: 0.75;
+    margin-bottom: 1.6rem;
+}
+
+.section-2 h3{
+    color: #989898;
+    font-weight: 300;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3rem;
+    padding: 3rem;
+  }
+  
+.grid-item {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .grid-item h4{
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 1.35rem;
+    opacity: 0.75;
+    margin-bottom: 1rem;
+  }
+  
+  .grid-item p{
+    font-size: 1.2rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #303030;
+    opacity: 0.7;
+  }
+
+  /* Section 3 */
+
+  .section-3{
+    position: relative;
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #90774f;
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+    box-sizing: border-box; 
+    text-align: center;
+}
+
+.section-3 h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 1.6rem;
+}
+
+.section-3 h3{
+    color: #e3e3e3;
+    font-weight: 300;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 1.5rem;
+}

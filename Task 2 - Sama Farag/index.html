@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 | Sama Farag</title>
+</head>
+<body style="background-color: rgb(32, 32, 32); font-family:Arial, Helvetica, sans-serif">
+    <form>
+        <fieldset>
+            <legend style="background-color: rgb(57, 112, 164);color: white; font-size: 18px;">Personal Data</legend>
+            <fieldset style="background-color:rgb(57, 112, 164) ; margin-top: 10px;">
+                <legend style="background-color: rgb(57, 112, 164);color: white; font-size: 18px;">Your Name</legend>
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="First Name" id="fname" placeholder="Enter your first name" style="margin-left: 54px; height: 15px;" required>
+                </div>
+                <br>
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="Last Name" id="lname" placeholder="Enter your last name" style="margin-left: 55px; height: 15px;"  required>
+                </div>
+            </fieldset>
+            <br>
+            <div style="margin-top: 20px; padding-left: 15px;">
+                <label for="phone" style="color: white;">Phone Number:</label>
+                <input type="tel" name="Telephone" id="phone" minlength="11" maxlength="15" placeholder="Enter your phone number" style="margin-left: 27px; height: 15px;" required>
+            </div>
+            <br>
+            <div style="padding-left: 15px;">
+                <label for="email" style="color: white;">Email:</label>
+                <input type="email" name="Email" id="email" placeholder="Enter your email" style="margin-left: 95px; height: 15px;" required>
+            </div>
+            <br>
+            <div style="padding-left: 15px;">
+                <label for="pass" style="color: white;">Password:</label>
+                <input type="password" name="Password" id="pass" placeholder="Enter your password" style="margin-left: 65px; height: 15px;" minlength="8" required>
+            </div>
+            <br>
+            <div style="padding-left: 15px;">
+                <label for="repass" style="color: white;">Re-Password:</label>
+                <input type="password" name="Re-Password" id="repass" placeholder="Rewrite your password" style="margin-left: 40px; height: 15px;" minlength="8" required>
+            </div>
+            <br>
+            <div style="padding-left: 15px;">
+                <h4 style="color: white;">Choose your gender</h4>
+                <input type="radio" name="Gender" id="male" value="Male">
+                <label for="male" style="color: white;">Male</label>
+                <br>
+                <input type="radio" name="Gender" id="female" value="Female">
+                <label for="female" style="color: white;">Female</label>
+            </div>
+                <br>
+            <div style="padding-left: 15px;">
+                <input type="checkbox" name="Status" id="student" value="Student">
+                <label for="student" style="color: white;">Student</label>
+                <br>
+                <input type="checkbox" name="Status" id="graduate" value="Graduate">
+                <label for="graduate" style="color: white;">Graduate</label>
+            </div>
+            <br>
+            <div style="padding-left: 15px;">
+                <input list="university" required style="height: 15px;"> 
+                    <datalist id="university">
+                        <option value="AUC">
+                        <option value="Cairo University">
+                        <option value="Ain Shams University">
+                        <option value="Menofia University">
+                        <option value="MUST">
+                        <option value="Other">
+                    </datalist>
+            </div>
+            <br>
+            <div style="text-align: center; margin-bottom: 20px;">
+                <input type="submit" value="Save" style="width: 5%; height: 20px;">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,133 @@
+/* Footer */
+
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+    background-color: #3f3c38;
+    color: #ece8e3;
+}
+
+.top-footer h4{
+    font-weight: 100;
+    font-family: "Alegreya", serif;
+    font-size: 1.35rem;
+    margin-bottom: 2rem;
+}
+
+.top-footer li, p{
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #989898;
+}
+
+.top-footer-middle ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.top-footer-middle li {
+    position: relative;
+    padding-left: 1.5rem; 
+    border-bottom: 1px solid #4f4d4b;
+    padding: 1rem;
+}
+
+.top-footer-middle li:last-child {
+    border-bottom: none;
+}
+
+.top-footer-middle li::before {
+    content: "\f054"; 
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 100; 
+    position: absolute;
+    left: 0;
+    color: #989898; 
+    font-size: 0.8rem; 
+    line-height: 1rem; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.top-footer-4 ul{
+    list-style: none;
+}
+
+.top-footer-4 a{
+    text-decoration: none;
+    color: #989898;
+}
+
+.top-footer-4-1 a:hover,.top-footer-4-2 a:hover,.top-footer-4-3 a:hover{
+    color: #ece8e3;
+    transition: color ease-in 0.18s;
+    cursor: pointer;
+}
+
+.top-footer li{
+    border-bottom: 1px solid #4f4d4b;
+    padding: 1rem;
+}
+
+.top-footer li:last-child {
+    border-bottom: none;
+}
+
+.bottom-footer{
+    background-color: #35332f;
+    padding: 4rem;
+    margin: 0;
+    text-align: center;
+}
+
+.bottom-footer h3{
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color:#989898;
+    opacity: 0.8;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+.bottom-footer a{
+    display: inline-block;
+    background-color:#484643f0;
+    border-radius: 50%;
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    padding-top: 0.8rem;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+
+.bottom-footer i{
+    color: #ece8e3;
+    opacity: 0.5;
+}
+
+.bottom-footer a:hover,
+.bottom-footer a:hover i {
+    opacity: 1;
+    transition: background-color ease-in 0.2s, opacity ease-in 0.2s;
+}
+
+.bottom-footer .facebook:hover {
+    background-color: #3b5998; 
+}
+
+.bottom-footer .google:hover {
+    background-color: #db4437; 
+}
+
+.bottom-footer .linkedin:hover {
+    background-color: #0077b5; 
+}
+
+.bottom-footer .twitter:hover {
+    background-color: #1da1f2; 
+}

@@ -1,0 +1,42 @@
+header {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-direction: column;
+    height: 350px; 
+    width: 100%;
+    align-items: center; 
+    justify-content: center; 
+    background-color: black;
+    z-index: -1;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center;
+}
+
+header h1{
+    margin-top: 5.5rem;
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 1.3rem;
+}
+
+header h4{
+    font-size: 1.2rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+    opacity: 0.8;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    transition: opacity ease-in 0.2s;
+}
+
+header a:hover{
+    opacity: 1;
+}

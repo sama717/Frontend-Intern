@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya", serif;
+    overflow-x: hidden;
+}
+
+/* header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.55rem 8.49rem;
+    position: fixed;
+    width: 100%;
+    background: white;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 2; 
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.09);
+}
+
+nav img {
+    width: 13rem;
+    height: 3.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #989898;
+    font-size: 1.32rem;
+    transition: color 0.3s ease-in; 
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Extra for header */
+nav a:hover {
+    color: #161616;
+}
+

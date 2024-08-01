@@ -1,0 +1,332 @@
+/* Section 1 */
+.sec-1 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.sec-1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1; 
+    opacity: 0.8;
+}
+
+.sec-1-text {
+    margin-top: 5rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.sec-1 h4, .sec-1 h1, .sec-1 p {
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.sec-1 h4 {
+    font-size: 1.6rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.sec-1 h1 {
+    font-size: 5.5rem;
+    font-weight: 200;
+    font-family: "Alegreya", serif;
+}
+
+.sec-1 p {
+    font-size: 1.8rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+.sec-1 button {
+    font-size: 1.2rem;
+    width: 9.5rem;
+    margin: 0.5rem;
+    height: 4.1rem;
+    border-radius: 0.3rem; 
+    color: white;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bt-1 {
+    background-color: #8e7754;
+    border: 2.5px solid #8e7754;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
+}
+
+.bt-2 {
+    background-color: transparent;
+    border: 2.5px solid white;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in, border-color 0.2s ease-in;
+}
+
+.bt-1:hover {
+    border: 2.5px solid white;
+    background-color: white;
+    color: black;
+}
+
+.bt-2:hover {
+    border: 2.5px solid white;
+    background-color: white;
+    color: black;
+}
+
+/* Section 2 */
+.sec-2 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 5rem; 
+}
+
+.sec-2-left {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center; 
+    padding-right: 2rem;
+}
+
+.sec-2-left img{
+    width: 42rem;
+    height: 40rem;
+}
+
+.sec-2-right {
+    display: block;
+    flex: 1;
+    justify-content: center; 
+    align-items: center; 
+    padding-left: 2rem; 
+}
+
+.sec-2-bottom{
+    margin-top: 2.7rem;
+}
+
+.sec-2-bottom li{
+    margin: 2rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color:#6b6b6b;
+
+}
+
+.sec-2-top h3{
+    margin-bottom: 2.5rem;
+    font-family: "Alegreya", serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #303030;
+}
+
+.sec-2-top p{
+    line-height: 2;
+    font-size: 1.3rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #6b6b6b;
+}
+
+/* Section 3 */
+.sec-3 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+.sec-3-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 2rem;
+    margin-left: 6rem;
+}
+
+.sec-3-right {
+    display: block;
+    flex: 1;
+    justify-content: center; 
+    align-items: center; 
+    padding-left: 2rem; 
+}
+
+.sec-3-right img{
+    width: 42rem;
+    height: 36rem;
+}
+
+.sec-3-left h2{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: "Alegreya", serif;
+}
+
+.sec-3-left p{
+    font-size: 1.2rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #303030;
+    opacity: 0.8;
+}
+
+/* Section 4 */
+.sec-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 110vh; 
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    padding: 0 2rem; 
+}
+
+.sec-4-top {
+    text-align: center;
+    margin-bottom: 2rem; 
+}
+
+.sec-4-top h2 {
+    margin: 2rem 0; 
+    font-weight: 100;
+    font-family: "Alegreya", serif;
+    font-size: 2.3rem;
+}
+
+.sec-4-top h4{
+    font-size: 1.3rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #6b6b6b;
+    margin-bottom: 1.5rem;
+}
+
+.sec-4-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    max-height: calc(100vh - 10rem); 
+    margin-bottom: 3rem;
+}
+
+.sec-4-bottom div {
+    margin: 1rem; 
+}
+
+.sec-4-bottom img {
+    max-width: 100%; 
+    height: auto;
+    width: 28rem; 
+    margin: 0rem 1rem;
+}
+
+.sec-4-bottom h3 {
+    font-size: 1.6rem;
+    margin: 2rem 0 1rem 0; 
+    font-weight: 100;
+    font-family: "Alegreya", serif;
+}
+
+.sec-4-bottom p {
+    font-size: 1.2rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #303030;
+    opacity: 0.8;
+}
+
+/* Section 5 */
+
+.sec-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 100vh; 
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    padding: 0 2rem; 
+}
+
+.sec-5-left{
+    margin-left: 5rem;
+}
+
+.sec-5-left p{
+    margin: 2rem 0rem;
+    font-size: 1.3rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #303030;
+    opacity: 0.8;
+}
+
+.sec-5-left h3{
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #303030;
+    opacity: 0.8;
+}
+
+.sec-5-left h2{
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 2.5rem;
+    opacity: 0.75;
+}
+
+.sec-5-bottom ul{
+   list-style: inside;
+   margin-left: 2rem;
+}
+
+.sec-5-bottom li{
+    margin: 2rem 0rem;
+    font-size: 1.3rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #303030;
+    opacity: 0.8;
+}
+
+.sec-5-right{
+    margin-right: 5rem;
+}
+
