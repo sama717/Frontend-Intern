@@ -1,0 +1,258 @@
+/* Header of Blog */
+header {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    height: 350px; 
+    width: 100%;
+    align-items: center; 
+    justify-content:space-between; 
+    z-index: -1;
+    background-color: #f8f8f8;
+}
+
+header h1{
+    margin-top: 5.5rem;
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 2.7rem;
+    color: #4a4a4a;
+    margin-left: 10rem;
+}
+
+header h4{
+    font-size: 1.1rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    color: #4a4a4a;
+    opacity: 0.8;
+    margin-right: 10rem;
+    margin-top: 5.5rem;
+}
+
+header a{
+    text-decoration: none;
+    color: #585858;
+    opacity: 0.7;
+    transition: opacity ease-in 0.2s;
+}
+
+header a:hover{
+    opacity: 1;
+}
+
+/* Section */
+ main{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+ }
+
+ section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+ }
+
+ article{
+    border: 1px solid #98989841;
+    margin: 1rem;
+ }
+
+ article img{
+    width: 30rem;
+    height: 20rem;
+ }
+
+ .upper-article{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .inner-article{
+    padding: 2rem;
+ }
+
+ .upper-article h2{
+    display: inline;
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    opacity: 0.75;
+    cursor: pointer;
+    transition: color ease-in 0.15s;
+ }
+
+ .upper-article h2:hover{
+    color: #736043;
+ }
+
+ .upper-article h3{
+    font-size: 1rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #989898;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+ }
+
+ .upper-article p{
+    font-family: "Alegreya Sans", sans-serif;
+    color: #4a4a4a;
+    margin-bottom: 1.5rem;
+ }
+
+ .upper-article a, .lower-article a{
+    text-decoration: none;
+    color: #4a4a4a;
+    transition: color ease-in-out 0.2s;
+ }
+
+ .upper-article i{
+    padding-left: 0.5rem;
+ }
+
+ .upper-article a:hover, .lower-article a:hover {
+    color:#8e7754;
+  }
+
+  .upper-article a:hover > i, .lower-article a:hover > i{
+    padding-left: 1rem;
+    transition: padding-left ease-in-out 0.2s;
+  }
+
+  .lower-article{
+    padding: 2rem;
+  }
+
+  article h2{
+    display: inline;
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    opacity: 0.75;
+    cursor: pointer;
+    transition: color ease-in 0.15s;
+  }
+
+  article h2:hover{
+    color: #736043;
+ }
+
+  article h3{
+    font-size: 1rem;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 300;
+    color: #989898;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  aside{
+    text-align: left;
+  }
+
+  .aside-part{
+    margin-right: 4rem;
+    margin-left: 1rem;
+    border-top: 1px solid #98989841;
+    padding: 1.5rem;
+
+  }
+
+ .aside-part:first-child{
+    border-top: none;
+ }
+
+ .aside-part:last-child{
+    border-bottom: none;
+ }
+  
+ .quote{
+    background-color: #8e7754;
+    padding: 2rem;
+    transition: background-color ease-in-out 0.2s;
+ }
+
+ .quote:hover{
+    background-color: rgb(58, 58, 58);
+ }
+
+ .quote h2{
+    color: white;
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    opacity: 1;
+ }
+
+ .quote h2:hover{
+    color: white;
+    cursor:default;
+ }
+ .quote h3{
+    color: white;
+    font-size: 1.1rem;
+    font-family: "Alegreya Sans", sans-serif;
+    margin-top: 2rem;
+ }
+
+ .lower-article p{
+    margin-bottom: 1rem;
+ }
+
+.aside-part input {
+    display: inline-block;
+    width: 20rem;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid #98989841;
+    transition: outline ease-in-out 0.15;
+}
+
+.aside-part input:focus{
+    outline: 1px solid #8e7754;
+}
+
+.aside-part h3{
+    font-family: "Alegreya", serif;
+    font-weight: 100;
+    font-size: 1.3rem;
+    color: #4d4d4d; 
+}
+
+.aside-part ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.aside-part li{
+    margin: 1.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+    color: #7e7e7e; 
+    font-family: "Alegreya Sans", sans-serif;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.aside-part li::before {
+    content: "\f054"; 
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 100; 
+    position: absolute;
+    left: 0;
+    color: #989898; 
+    font-size: 0.8rem; 
+    line-height: 1rem; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.aside-part li:hover{
+    color: #8e7754;
+}
+
+span{
+    text-decoration: underline;
+}
